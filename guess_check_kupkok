@@ -1,0 +1,14 @@
+given_number = int(input("Enter an integer number: "))
+guess = 0
+target = given_number
+is_negative = target < 0
+target = abs(target)
+
+while guess ** 3 < target:
+    guess += 1
+
+if guess ** 3 == target:
+    cube_root = -guess if is_negative else guess
+    print(f"Cube root of {given_number} is {cube_root}")
+else:
+    print(f"{given_number} does not have an exact integer cube root.")
