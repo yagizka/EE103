@@ -1,0 +1,7 @@
+given_number = int(input("Enter a perfect square: "))
+guess_number = 1
+
+while guess_number * guess_number != given_number:
+    guess_number += 1
+
+print(f"Square root of {given_number} is {guess_number}")
