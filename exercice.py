@@ -2,9 +2,9 @@ s = 'abcdefghijklmnopqrstuvwxyz'
 b = 'naber'
 c = ''
 
-for char in b:
-    if char in s:
-        c += char
+for y in b:
+    if y in s:
+        c += y
 print(c)
 
     
